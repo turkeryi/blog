@@ -1,6 +1,6 @@
 ---
 title: "Spring Authorization Server with Password Grant Type"
-date: 2023-08-24T01:19:44+03:00
+date: 2023-08-22T01:19:44+03:00
 draft: false
 tags: [spring, spring-boot, spring-framework, spring-security, spring-authorization, spring-authorization-server, authorization, password-grant-type, grant-type, password, granttype]
 description: Finally, spring-authorization-server got custom grant type support with version 1.0.0.
