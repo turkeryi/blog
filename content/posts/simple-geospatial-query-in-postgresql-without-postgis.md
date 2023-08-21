@@ -1,7 +1,7 @@
 ---
 title: "Simple Geospatial Query in Postgresql without Postgis"
 date: 2022-11-12T09:00:00+03:00
-draft: false
+draft: true
 tags: [spring, spring-boot, spring-jpa, spring-data, postgresql, postgis, geospatial]
 description: Let's get started.
 ---
