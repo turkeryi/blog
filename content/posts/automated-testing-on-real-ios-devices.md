@@ -1,9 +1,39 @@
 ---
 title: "Automated Testing On Real iOS Devices"
 date: 2019-01-15T18:19:44+03:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["appium", "ios", "automated-testing", "xcode", "webdriveragent", "real-devices"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
 draft: false
-tags: [appium, ios, automated-testing, xcode, webdriveragent, real-devices]
-description: Automated testing is one of the popular topics of our time and almost indispensable. Usually it saves us from time and cost wasting and offers repeatability. In this article, I will explain how we can do automated tests on real iOS devices with Appium.
+hidemeta: false
+comments: false
+description: "Automated testing is one of the popular topics of our time and almost indispensable. Usually it saves us from time and cost wasting and offers repeatability. In this article, I will explain how we can do automated tests on real iOS devices with Appium."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 **Automated testing** is one of the popular topics of our time and almost indispensable. Usually it saves us from wasting time and offers repeatability. In this article, I will explain how we can do automated tests on real iOS devices with Appium.
