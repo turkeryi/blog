@@ -1,12 +1,42 @@
 ---
 title: "Spring Authorization Server with Password Grant Type"
 date: 2023-08-22T01:19:44+03:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["spring", "spring-boot", "spring-framework", "spring-security", "spring-authorization", "spring-authorization-server", "authentication", "authorization", "password-grant-type", "grant-type", "password", "granttype"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
 draft: false
-tags: [spring, spring-boot, spring-framework, spring-security, spring-authorization, spring-authorization-server, authorization, password-grant-type, grant-type, password, granttype]
-description: Finally, spring-authorization-server got custom grant type support with version 1.0.0.
+hidemeta: false
+comments: false
+description: "Finally, spring-authorization-server got custom grant type support with version 1.0.0."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
- Finally, `spring-authorization-server` got custom grant type support with version 1.0.0. Let's see what implementations we need to do for `grant-type:password`.
+Finally, `spring-authorization-server` got custom grant type support with version 1.0.0. Let's see what implementations we need to do for `grant-type:password`.
 
 ### PasswordGrantAuthenticationConverter
 
@@ -285,8 +315,8 @@ public class PasswordGrantAuthenticationToken extends OAuth2AuthorizationGrantAu
 ```
 
 ### UserEntity
- 
- A basic User Entity.
+
+A basic User Entity.
 
 ```java
 @Getter
@@ -319,7 +349,7 @@ public class UserEntity {
 
 ### UserRepository
 
- A basic User Repository.
+A basic User Repository.
 
 ```java
 public interface UserRepository extends JpaRepository<UserEntity, Long> {

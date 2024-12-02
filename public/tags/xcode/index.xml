@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Xcode on Turker Yildirim</title>
+    <link>http://localhost:1313/tags/xcode/</link>
+    <description>Recent content in Xcode on Turker Yildirim</description>
+    <image>
+      <title>Turker Yildirim</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 Jan 2019 18:19:44 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated Testing On Real iOS Devices</title>
+      <link>http://localhost:1313/posts/automated-testing-on-real-ios-devices/</link>
+      <pubDate>Tue, 15 Jan 2019 18:19:44 +0300</pubDate>
+      <guid>http://localhost:1313/posts/automated-testing-on-real-ios-devices/</guid>
+      <description>Automated testing is one of the popular topics of our time and almost indispensable. Usually it saves us from time and cost wasting and offers repeatability. In this article, I will explain how we can do automated tests on real iOS devices with Appium.</description>
+    </item>
+  </channel>
+</rss>
