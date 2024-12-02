@@ -16,7 +16,19 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Turker Yildirim
   description: "Building Tech, Sharing Knowledge"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords:
+    [
+      Blog,
+      Portfolio,
+      Turker,
+      Yildirim,
+      Software,
+      Engineer,
+      Science,
+      Backend,
+      Java,
+      Test,
+    ]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -28,7 +40,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -87,10 +99,6 @@ params:
   analytics:
     google:
       SiteVerificationTag: "G-PLXL1Z20H2"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -115,10 +123,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 10
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -136,3 +152,7 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+services:
+  googleAnalytics:
+    id: "G-PLXL1Z20H2"
